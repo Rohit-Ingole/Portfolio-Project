@@ -29,7 +29,7 @@ export const BlogCard = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
-  background: url("https://lh3.google.com/u/0/d/1waIJD9jLvjlEgO4hcWqLx9evo1_CZETj=w1920-h923-iv1");
+  background: url("https://flevix.com/wp-content/uploads/2019/12/bubble-animated-background.svg");
 `;
 export const TitleContent = styled.div`
   text-align: center;
