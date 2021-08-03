@@ -52,7 +52,7 @@ export const projects = [
   {
     title: "Weather App",
     description:
-      "This is a React based Web Weather app. It uses openweather api form data and react-icons. Hosted on firebase with complete responsiveness for all devices.",
+      "This is a React based Web Weather app. It uses openweather api for data. Hosted on firebase with complete responsiveness for all devices.",
     image: "/images/6.png",
     tags: ["React", "Firebase", "Api"],
     source: "https://weather-app-1-eeac9.web.app/",
@@ -72,7 +72,7 @@ export const projects = [
   {
     title: "Disney Website",
     description:
-      "This is a React Js and Firebase based Disney Website clone which is completely responsive and has many cool features in it. Made with help of tutorial on CleverProgrammer YT.",
+      "This is a React Js and Firebase based Disney Website clone which is completely responsive and has many cool features in it.",
     image: "/images/8.png",
     tags: ["React", "React-Context", "Firebase"],
     source: "https://disney-clone-app-2da0b.web.app/",
