@@ -1,5 +1,5 @@
-import Document, { Head, Html, Main, NextScript } from "next/document";
-import { ServerStyleSheet } from "styled-components";
+import Document, {Head, Html, Main, NextScript} from "next/document";
+import {ServerStyleSheet} from "styled-components";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -9,8 +9,7 @@ export default class MyDocument extends Document {
     try {
       ctx.renderPage = () =>
         originalRenderPage({
-          enhanceApp: (App) => (props) =>
-            sheet.collectStyles(<App {...props} />),
+          enhanceApp: App => props => sheet.collectStyles(<App {...props} />)
         });
 
       const initialProps = await Document.getInitialProps(ctx);
@@ -21,7 +20,7 @@ export default class MyDocument extends Document {
             {initialProps.styles}
             {sheet.getStyleElement()}
           </>
-        ),
+        )
       };
     } finally {
       sheet.seal();
@@ -36,7 +35,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <title>Rohit's Portfolio</title>
-          <link rel="icon" href="#" />
+          <link
+            rel="icon"
+            href="https://mir-s3-cdn-cf.behance.net/project_modules/source/945b0225337909.563440870421b.png"
+          />
         </Head>
         <body>
           <Main />
