@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const Section = styled.section`
   display: ${(props) => (props.grid ? "grid" : "flex")};
@@ -24,13 +24,36 @@ export const Section = styled.section`
   }
 `;
 
+const gradientAmiation = keyframes`
+ 	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+`;
+
 export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => (props.main ? "65px" : "56px")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #af85e2 18.77%, #e88f71 60.15%);
+  /* background: linear-gradient(121.57deg, #af85e2 18.77%, #e88f71 60.15%); */
+  background: linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab,
+    #af85e2,
+    #e88f71
+  );
+  background-size: 400% 400%;
+  animation: ${gradientAmiation} 15s ease infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
