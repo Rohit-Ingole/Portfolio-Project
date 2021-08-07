@@ -99,6 +99,17 @@ export const projects = [
     visit: "https://github.com/Rohit-Ingole/Restaurant-Reviews-App--MERN",
     id: 9,
   },
+  ,
+  {
+    title: "Travel Advise",
+    description:
+      "This is a React js and Material-Ui based Travel advisor app. It uses Trave Advisor API and Open Weather API from rapid API for data and netlify for hosting. ",
+    image: "/images/11.png",
+    tags: ["Next JS", "Rapid API", "Material UI", "Google Maps"],
+    source: "https://festive-goldwasser-d0bdba.netlify.app/",
+    visit: "https://github.com/Rohit-Ingole/Travel-Advisor",
+    id: 10,
+  },
 ];
 
 export const TimeLineData = [
