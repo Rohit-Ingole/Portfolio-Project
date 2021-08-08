@@ -108,7 +108,17 @@ export const projects = [
     tags: ["Next JS", "Tailwind", "Vercel", "Mapbox"],
     source: "https://airbnb-clone-bay.vercel.app/",
     visit: "https://github.com/Rohit-Ingole/Airbnb-Clone",
-    id: 9,
+    id: 10,
+  },
+  {
+    title: "Crypto Currency Tracker",
+    description:
+      "This is a NextJs based Crypto currency tracker. It uses CoinGecko's API for the real time data. It uses Tailwind css utility classes for styling. Site hosted on vercel.",
+    image: "/images/12.png",
+    tags: ["Next JS", "Tailwind", "Vercel", "API"],
+    source: "https://crypto-currency-tracker-nine.vercel.app/",
+    visit: "https://github.com/Rohit-Ingole/Crypto-Currency-Tracker",
+    id: 11,
   },
 ];
 
