@@ -89,26 +89,26 @@ export const projects = [
     visit: "https://github.com/Rohit-Ingole/Whatsapp-2--Next.JS",
     id: 8,
   },
-  {
-    title: "Restaurant Review",
-    description:
-      "This is a full MERN stack web app that uses bootstrap for styling and MondDB test DB for data with dynamic searching and filtering options. Backend Hosted on Heroku.",
-    image: "/images/10.png",
-    tags: ["MongoDb", "Express", "React", "Node"],
-    source: "https://restaurant-app-mern.web.app/",
-    visit: "https://github.com/Rohit-Ingole/Restaurant-Reviews-App--MERN",
-    id: 9,
-  },
   ,
   {
     title: "Travel Advise",
     description:
       "This is a React js and Material-Ui based Travel advisor app. It uses Trave Advisor API and Open Weather API from rapid API for data and netlify for hosting. ",
-    image: "/images/11.png",
+    image: "/images/10.png",
     tags: ["Next JS", "Rapid API", "Material UI", "Google Maps"],
     source: "https://festive-goldwasser-d0bdba.netlify.app/",
     visit: "https://github.com/Rohit-Ingole/Travel-Advisor",
-    id: 10,
+    id: 9,
+  },
+  {
+    title: "Airbnb Clone",
+    description:
+      "This is a Next js based Airbng Clone. It uses JIT Tailwind for styling for responsive design and Hosted on Vercel. It has Map box integration for Locating Hotels on Map.",
+    image: "/images/10.png",
+    tags: ["Next JS", "Tailwind", "Vercel", "Mapbox"],
+    source: "https://airbnb-clone-bay.vercel.app/",
+    visit: "https://github.com/Rohit-Ingole/Airbnb-Clone",
+    id: 9,
   },
 ];
 
