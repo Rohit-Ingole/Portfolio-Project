@@ -104,7 +104,7 @@ export const projects = [
     title: "Airbnb Clone",
     description:
       "This is a Next js based Airbng Clone. It uses JIT Tailwind for styling for responsive design and Hosted on Vercel. It has Map box integration for Locating Hotels on Map.",
-    image: "/images/10.png",
+    image: "/images/11.png",
     tags: ["Next JS", "Tailwind", "Vercel", "Mapbox"],
     source: "https://airbnb-clone-bay.vercel.app/",
     visit: "https://github.com/Rohit-Ingole/Airbnb-Clone",
