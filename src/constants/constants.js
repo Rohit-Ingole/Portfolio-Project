@@ -111,7 +111,7 @@ export const projects = [
     id: 10,
   },
   {
-    title: "Crypto Currency Tracker",
+    title: "Crypto Tracker",
     description:
       "This is a NextJs based Crypto currency tracker. It uses CoinGecko's API for the real time data. It uses Tailwind css utility classes for styling. Site hosted on vercel.",
     image: "/images/12.png",
